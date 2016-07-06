@@ -1,0 +1,30 @@
+    /*custom css*/
+
+    .am-picker {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50rem;
+        border: 0.1rem solid red;
+        height: 50rem;
+    }
+    .am-picker-zone {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*.am-picker-move:hover {
+        transform: translateY(100px);
+        transition: 1s all
+    }*/
+
+    .am-picker-move {
+        cursor: pointer;
+    }
+    .am-picker-list li {
+        list-style: none;
+        border-bottom: 0.2rem solid skyblue;
+        text-align: center;
+        height: 3rem;
+    }

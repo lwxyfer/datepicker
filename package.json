@@ -1,0 +1,31 @@
+{
+  "name": "picker",
+  "version": "0.0.1",
+  "description": "picker time,data and something else",
+  "main": "main.js",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwxyfer/datepicker.git"
+  },
+  "keywords": [
+    "picker"
+  ],
+  "author": "LWXYFER",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lwxyfer/datepicker/issues"
+  },
+  "homepage": "https://github.com/lwxyfer/datepicker#readme"
+}
